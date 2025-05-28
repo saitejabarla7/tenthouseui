@@ -4,8 +4,15 @@ const Header = () => {
   return (
     <nav style={{ background: '#121211', color: '#c4b46c', padding: '1rem' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', justifyContent: 'space-between' }}>
-        <h2>SriSai Events</h2>
-        <ul style={{ listStyle: 'none', display: 'flex', gap: '1.5rem' }}>
+        <h2 style={{ fontFamily: "'Dancing Script', cursive", fontSize: '2rem' }}>SriSai Events</h2>
+        <ul style={{ 
+          listStyle: 'none', 
+          display: 'flex', 
+          gap: '1.5rem', 
+          fontFamily: "'Dancing Script', cursive",
+          fontSize: '1.2rem',
+          alignItems: 'center'
+        }}>
           <li><a href="#home" style={{ color: '#c4b46c', textDecoration: 'none' }}>Home</a></li>
           <li><a href="#services" style={{ color: '#c4b46c', textDecoration: 'none' }}>Services</a></li>
           <li><a href="#events" style={{ color: '#c4b46c', textDecoration: 'none' }}>Events</a></li>

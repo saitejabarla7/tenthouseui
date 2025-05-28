@@ -87,7 +87,7 @@ import Events from './components/Events';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import './App.css';
-
+import Dashboard from './components/dashboard';
 function App() {
   return (
     <div className="App">
@@ -97,6 +97,7 @@ function App() {
       <Events />
       <Testimonials />
       <Footer />
+      <Dashboard />
     </div>
   );
 }
