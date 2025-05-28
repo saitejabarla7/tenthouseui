@@ -44,12 +44,14 @@ const Title = styled.h1`
   font-size: 3rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   font-family: 'Dancing Script', cursive;
 `;
 
 const Subtitle = styled.p`
   font-size: 1.5rem;
   margin-bottom: 2rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   font-family: 'Dancing Script', cursive;
 `;
 
 const Button = styled.button`
@@ -61,6 +63,7 @@ const Button = styled.button`
   color: #fff;
   cursor: pointer;
   transition: transform 0.3s ease;
+   font-family: 'Dancing Script', cursive;
   
   &:hover {
     transform: translateY(-3px);
